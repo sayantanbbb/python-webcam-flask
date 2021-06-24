@@ -35,7 +35,7 @@ def test_connect():
 @app.route('/')
 def index():
     """Video streaming home page."""
-    return render_template('index.html')
+    return render_template('templates/index.html')
 
 
 def gen():
